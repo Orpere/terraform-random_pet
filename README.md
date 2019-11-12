@@ -55,7 +55,7 @@ null_resource.example (local-exec): bold-sawfish
 null_resource.example: Creation complete after 0s [id=8329988238673998984]
 ```
 
-### 6 - Terraform destroy
+### 6 - terraform destroy
 
 ```terraform
 terraform destroy
