@@ -6,9 +6,7 @@ This repo has as dependencies a command line or shell git and terraform.You can 
 
 ## How can I use this repo`?`
 
-_Note_: my login on GitHub is capitalized and that is the reason why the "Orpere" appears like this.
-
-### 1 - clone repo Terraform-random_pet
+### 1 - clone repo terraform-random_pet
 
 - open your shell or command line and go to the directory where you pretend to add the repo
 
@@ -17,7 +15,7 @@ cd <directory where pretend to add the repo>
 ```
 
 ```git
-git clone git@github.com:orpere/terraform-random_pet.git
+git clone git@github.com:orlando.pereira/terraform-random_pet.git
 ```
 
 ### 2 - move to your repo folder
