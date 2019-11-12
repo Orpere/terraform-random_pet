@@ -1,6 +1,6 @@
 # terraform-random_pet ->  repo that you can use to see how terraform random_pet work
 
-## how can I use this repository`?`
+## How can I use this repository`?`
 
 This repo has as dependencies a command line or shell git and terraform.You can find the install instructions bellow on [EXTRAS](#extras) section.
 
