@@ -1,12 +1,14 @@
 # Terraform-random_pet -> repo that you can use to see how terraform-random_pet work
 
-## how can I use this repository?
+## how can I use this repository`?`
 
 This repo has as dependencies a command line or shell git and terraform.You can find the install instructions bellow on [EXTRAS](#extras) section.
 
 ## How can I use this repo`?`
 
-### Task - clone repo Terraform-random_pet
+_Note_: my login on GitHub is capitalized and that is the reason why the "Orpere" appears like this.
+
+### 1 - clone repo Terraform-random_pet
 
 - open your shell or command line and go to the directory where you pretend to add the repo
 
@@ -15,16 +17,16 @@ cd <directory where pretend to add the repo>
 ```
 
 ```git
-git clone git@github.com:Orpere/Terraform-random_pet.git
+git clone git@github.com:orpere/terraform-random_pet.git
 ```
 
-### Task - move to your repo folder
+### 2 - move to your repo folder
 
 ```bash
-cd Terraform-random_pet
+cd terraform-random_pet
 ```
 
-### Task - terraform init
+### 3 - terraform init
 
 - this will retrieve all dependencies for terraform files
 
@@ -32,22 +34,20 @@ cd Terraform-random_pet
 terraform init
 ```
 
-### Task - run terraform apply
+### 4 - run terraform apply
 
 ```terraform
 terraform apply
 ```
 
-- This step will prompt <<Do you want to perform these actions?>>
-  the answer should be **yes** 
+- This step will prompt `<<`Do you want to perform these actions?`>>`
+  - the answer should be **yes**
 
- 
-
-### Task - check the result
+### 5 - check the result
 
 - In this case was used random_pet what should give to your resource a pet name as bellow
 
-```terraform 
+```terraform
 random_pet.example: Creating...
 random_pet.example: Creation complete after 0s [id=bold-sawfish]
 null_resource.example: Creating...
@@ -57,7 +57,7 @@ null_resource.example (local-exec): bold-sawfish
 null_resource.example: Creation complete after 0s [id=8329988238673998984]
 ```
 
-### Task - Terraform destroy
+### 6 - Terraform destroy
 
 ```terraform
 terraform destroy
