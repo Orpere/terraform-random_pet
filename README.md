@@ -43,7 +43,7 @@ terraform apply
 
  
 
-### Task - check the result of the useful provider
+### Task - check the result
 
 - In this case was used random_pet what should give to your resource a pet name as bellow
 
