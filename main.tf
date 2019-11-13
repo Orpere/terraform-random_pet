@@ -1,10 +1,8 @@
+
 resource "random_pet" "example" {
-  length = 2
+  length = 3
 }
 
-resource "null_resource" "example" {
-  provisioner "local-exec" {
-    command = "echo ${random_pet.example.id}"
-  }
-
+output "example" {
+  value = "${random_pet.example.id}"
 }

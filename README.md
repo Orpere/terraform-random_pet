@@ -46,13 +46,11 @@ terraform apply
 - In this case was used random_pet what should give to your resource a pet name as bellow
 
 ```terraform
-random_pet.example: Creating...
-random_pet.example: Creation complete after 0s [id=bold-sawfish]
-null_resource.example: Creating...
-null_resource.example: Provisioning with 'local-exec'...
-null_resource.example (local-exec): Executing: ["/bin/sh" "-c" "echo bold-sawfish"]
-null_resource.example (local-exec): bold-sawfish
-null_resource.example: Creation complete after 0s [id=8329988238673998984]
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+example = abnormally-rested-monarch
 ```
 
 ### 6 - terraform destroy
